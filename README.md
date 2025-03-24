@@ -8,11 +8,11 @@ Este proyecto cuenta con una serie de seminarios y practicas.
 
 ## Colaboradores
 
-- William Quinn (https://github.com/Wistry)
-- Laura Riesco (https://github.com/LauraRiesco)
+- [William Quinn](https://github.com/Wistry)
+- [Laura Riesco](https://github.com/LauraRiesco)
 
 ## Contenido del Repositorio
 
-Seminario 1 -> Seminario 1. Programación de dispositivos a bajo nivel
-Practica 1 -> Práctica 1. Entrada/Salida utilizando interrupciones con lenguaje C
+- Seminario 1 -> Seminario 1. Programación de dispositivos a bajo nivel
+- Practica 1 -> Práctica 1. Entrada/Salida utilizando interrupciones con lenguaje C
 
