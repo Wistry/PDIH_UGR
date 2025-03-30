@@ -39,7 +39,7 @@ Fija el aspecto del cursor, debe admitir tres valores: INVISIBLE, NORMAL y GRUES
 Fija el modo de video deseado.
 
 
-![setvideomode](image.png)
+![setvideomode](images/setvideomode.png)
 
 ---
 
