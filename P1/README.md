@@ -14,7 +14,7 @@ Realizado con una division de 5 funciones basicas cada uno + 1 extra. De ahi que
 ### 1. `gotoxy()`
 Coloca el cursor en una posición determinada.
 
-**Foto de ejecución:**
+
 ![menuinicial](image.png)
 ![gotoxy](image-1.png)
 
@@ -23,7 +23,7 @@ Coloca el cursor en una posición determinada.
 ### 2. `setcursortype()`
 Fija el aspecto del cursor, debe admitir tres valores: INVISIBLE, NORMAL y GRUESO.
 
-**Foto de ejecución:**
+
 Menu inicial para los tipos de cursores
 ![menuinicial](image-2.png)
 Cursor invisible
@@ -38,7 +38,7 @@ Cursor ancho
 ### 3. `setvideomode()`
 Fija el modo de video deseado.
 
-**Foto de ejecución:**
+
 ![setvideomode](./images/setvideomode.png)
 
 ---
@@ -46,7 +46,7 @@ Fija el modo de video deseado.
 ### 4. `getvideomode()`
 Obtiene el modo de video actual.
 
-**Foto de ejecución:**
+
 ![getvideomode](./images/getvideomode.png)
 
 ---
@@ -54,7 +54,7 @@ Obtiene el modo de video actual.
 ### 5. `textcolor()`
 Modifica el color de primer plano con que se mostrarán los caracteres.
 
-**Foto de ejecución:**
+
 ![textcolor](./images/textcolor.png)
 
 ---
@@ -62,7 +62,7 @@ Modifica el color de primer plano con que se mostrarán los caracteres.
 ### 6. `textbackground()`
 Modifica el color de fondo con que se mostrarán los caracteres.
 
-**Foto de ejecución:**
+
 ![textbackground](./images/textbackground.png)
 
 ---
@@ -70,7 +70,7 @@ Modifica el color de fondo con que se mostrarán los caracteres.
 ### 7. `clrscr()`
 Borra toda la pantalla.
 
-**Foto de ejecución:**
+
 ![clrscr](image-6.png)
 
 ---
@@ -78,7 +78,7 @@ Borra toda la pantalla.
 ### 8. `cputchar()`
 Escribe un carácter en pantalla con el color indicado actualmente.
 
-**Foto de ejecución:**
+
 ![cputchar](image-7.png)
 
 ---
@@ -86,7 +86,7 @@ Escribe un carácter en pantalla con el color indicado actualmente.
 ### 9. `getche()`
 Obtiene un carácter de teclado y lo muestra en pantalla.
 
-**Foto de ejecución:**
+
 ![getche](image-8.png)
 
 ---
@@ -94,7 +94,7 @@ Obtiene un carácter de teclado y lo muestra en pantalla.
 ### 10. `pixel()`
 Dibuja un pixel en modo gráfico (la función recibirá la coordenada x, y y el color del punto).
 
-**Foto de ejecución:**
+
 ![pixel](./images/pixel.png)
 
 ---
@@ -104,7 +104,7 @@ Dibuja un pixel en modo gráfico (la función recibirá la coordenada x, y y el 
 ### 11. Dibujar un recuadro
 Implementa una función que permita dibujar un recuadro en la pantalla en modo texto. Recibe como parámetros las coordenadas superior izquierda e inferior derecha del recuadro, el color de primer plano y el color de fondo.
 
-**Foto de ejecución:**
+
 ![DibujarCuadrado](image-9.png)
 
 ---
@@ -112,7 +112,7 @@ Implementa una función que permita dibujar un recuadro en la pantalla en modo t
 ### 12. ASCII Art
 Implementa un programa sencillo que realice un dibujo sencillo de tipo “ASCII art”. En el ANEXO al final de este guión se proponen algunos diseños.
 
-**Foto de ejecución:**
+
 ![ascii_art](./images/ascii_art.png)
 
 ---
