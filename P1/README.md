@@ -24,14 +24,14 @@ Coloca el cursor en una posición determinada.
 Fija el aspecto del cursor, debe admitir tres valores: INVISIBLE, NORMAL y GRUESO.
 
 
-Menu inicial para los tipos de cursores
-![menuinicial](image-2.png)
-Cursor invisible
-![setcursortype:invisible](image-3.png)
-Cursor normal
-![setcursortype:normal](image-4.png)
-Cursor ancho
-![setcursortype:ancho](image-5.png)
+- Menu inicial para los tipos de cursores
+- ![menuinicial](image-2.png)
+- Cursor invisible
+- ![setcursortype:invisible](image-3.png)
+- Cursor normal
+- ![setcursortype:normal](image-4.png)
+- Cursor ancho
+- ![setcursortype:ancho](image-5.png)
 
 ---
 
