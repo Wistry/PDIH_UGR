@@ -55,8 +55,8 @@ Obtiene el modo de video actual.
 Modifica el color de primer plano con que se mostrarán los caracteres.
 
 
-![textcolor](./images/textcoloe1.png)
-![textcolor](./images/textcoloe2.png)
+![textcolor](./images/textcolor1.png)
+![textcolor](./images/textcolor2.png)
 
 ---
 
