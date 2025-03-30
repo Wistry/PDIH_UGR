@@ -6,7 +6,7 @@
 - William Quinn
 - Laura Riesco
 
-.[!NOTE]
+.[!NOTE].
 Realizado con una division de 5 funciones basicas cada uno + 1 extra. De ahi que haya 2 archivos .c
 
 ## Funciones básicas
