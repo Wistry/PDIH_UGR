@@ -15,8 +15,8 @@
 Coloca el cursor en una posición determinada.
 
 
-![menuinicial](image.png)
-![gotoxy](image-1.png)
+![menuinicial](images/image.png)
+![gotoxy](images/image-1.png)
 
 ---
 
@@ -25,13 +25,13 @@ Fija el aspecto del cursor, debe admitir tres valores: INVISIBLE, NORMAL y GRUES
 
 
 - Menu inicial para los tipos de cursores
-- ![menuinicial](image-2.png)
+- ![menuinicial](images/image-2.png)
 - Cursor invisible
-- ![setcursortype:invisible](image-3.png)
+- ![setcursortype:invisible](images/image-3.png)
 - Cursor normal
-- ![setcursortype:normal](image-4.png)
+- ![setcursortype:normal](images/image-4.png)
 - Cursor ancho
-- ![setcursortype:ancho](image-5.png)
+- ![setcursortype:ancho](images/image-5.png)
 
 ---
 
@@ -39,7 +39,7 @@ Fija el aspecto del cursor, debe admitir tres valores: INVISIBLE, NORMAL y GRUES
 Fija el modo de video deseado.
 
 
-![setvideomode](./images/setvideomode.png)
+![setvideomode](image.png)
 
 ---
 
@@ -47,7 +47,7 @@ Fija el modo de video deseado.
 Obtiene el modo de video actual.
 
 
-![getvideomode](./images/getvideomode.png)
+![getvideomode](./images/videomode.png)
 
 ---
 
@@ -55,7 +55,8 @@ Obtiene el modo de video actual.
 Modifica el color de primer plano con que se mostrarán los caracteres.
 
 
-![textcolor](./images/textcolor.png)
+![textcolor](./images/textcoloe1.png)
+![textcolor](./images/textcoloe2.png)
 
 ---
 
@@ -63,7 +64,7 @@ Modifica el color de primer plano con que se mostrarán los caracteres.
 Modifica el color de fondo con que se mostrarán los caracteres.
 
 
-![textbackground](./images/textbackground.png)
+![textbackground](./images/background.png)
 
 ---
 
@@ -71,7 +72,7 @@ Modifica el color de fondo con que se mostrarán los caracteres.
 Borra toda la pantalla.
 
 
-![clrscr](image-6.png)
+![clrscr](images/image-6.png)
 
 ---
 
@@ -79,7 +80,7 @@ Borra toda la pantalla.
 Escribe un carácter en pantalla con el color indicado actualmente.
 
 
-![cputchar](image-7.png)
+![cputchar](images/image-7.png)
 
 ---
 
@@ -87,7 +88,7 @@ Escribe un carácter en pantalla con el color indicado actualmente.
 Obtiene un carácter de teclado y lo muestra en pantalla.
 
 
-![getche](image-8.png)
+![getche](images/image-8.png)
 
 ---
 
@@ -105,7 +106,7 @@ Dibuja un pixel en modo gráfico (la función recibirá la coordenada x, y y el 
 Implementa una función que permita dibujar un recuadro en la pantalla en modo texto. Recibe como parámetros las coordenadas superior izquierda e inferior derecha del recuadro, el color de primer plano y el color de fondo.
 
 
-![DibujarCuadrado](image-9.png)
+![DibujarCuadrado](images/image-9.png)
 
 ---
 
@@ -113,6 +114,6 @@ Implementa una función que permita dibujar un recuadro en la pantalla en modo t
 Implementa un programa sencillo que realice un dibujo sencillo de tipo “ASCII art”. En el ANEXO al final de este guión se proponen algunos diseños.
 
 
-![ascii_art](./images/ascii_art.png)
+![ascii_art](images/art.png)
 
 ---
