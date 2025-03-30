@@ -6,8 +6,8 @@
 - William Quinn
 - Laura Riesco
 
-.[!NOTE].
-Realizado con una division de 5 funciones basicas cada uno + 1 extra. De ahi que haya 2 archivos .c
+> **Nota:**
+> Realizado con una division de 5 funciones basicas cada uno + 1 extra. De ahi que haya 2 archivos .c
 
 ## Funciones básicas
 
