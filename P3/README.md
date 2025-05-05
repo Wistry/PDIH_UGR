@@ -21,8 +21,10 @@ segundos
 
 - Arduino UNO  
   ![Arduino UNO](ej1/Captura%20de%20pantalla%202025-04-30%20a%20las%2019.07.33.png)
+
 - LED rojo, LED amarillo, LED verde  
   ![LEDs](ej1/Captura%20de%20pantalla%202025-04-30%20a%20las%2019.07.48.png)
+
 - Resistencias 220Ω  
   ![Resistencia](ej1/Captura%20de%20pantalla%202025-04-30%20a%20las%2019.07.55.png)
 
@@ -30,6 +32,7 @@ segundos
 
 - Esquema de conexión de los LEDs  
   ![Conexión LEDs](ej1/Captura%20de%20pantalla%202025-04-30%20a%20las%2019.08.46.png)
+
 - Foto del montaje final  
   ![Montaje final](ej1/Captura%20de%20pantalla%202025-04-30%20a%20las%2019.14.15.png)
 
@@ -41,7 +44,7 @@ segundos
 
 #### Video demostrativo
 
-- <video controls src="ej1/Grabación de pantalla 2025-04-30 a las 19.09.03.mov" title="Video Explicativo"></video>
+- [Descargar video demostrativo](<ej1/Grabación de pantalla 2025-04-30 a las 19.09.03.mov>)
 
 ---
 
@@ -55,10 +58,13 @@ apaguen los LEDs amarillo y verde.
 
 - Arduino UNO  
   ![Arduino UNO](ej2/Captura%20de%20pantalla%202025-04-30%20a%20las%2019.07.33.png)
+
 - LED rojo, LED amarillo, LED verde  
   ![LEDs](ej2/Captura%20de%20pantalla%202025-04-30%20a%20las%2019.07.48.png)
+
 - Resistencias 220Ω  
   ![Resistencia](ej2/Captura%20de%20pantalla%202025-04-30%20a%20las%2019.07.55.png)
+
 
 #### Circuito final
 
@@ -73,7 +79,7 @@ apaguen los LEDs amarillo y verde.
 
 #### Video demostrativo
 
-- <video controls src="ej2/Ej2.mp4" title="Video Explicativo"></video>
+- [Descargar video demostrativo](<ej2/Ej2.mp4>)
 
 ---
 
@@ -87,10 +93,13 @@ forma similar a las lucecitas de "El coche fantástico": https://bit.ly/3Lu7YNz
 
 - Arduino UNO  
   ![Arduino UNO](<op1/Captura de pantalla 2025-04-30 a las 19.27.39.png>)
+
 - 4 LEDs (rojo, amarillo, verde, azul, etc.)  
   ![LEDs](<op1/Captura de pantalla 2025-04-30 a las 19.27.27.png>)
+
 - 4 Resistencias 220Ω  
   ![Resistencias](<op1/Captura de pantalla 2025-04-30 a las 19.27.32.png>)
+
 
 #### Circuito final
 
@@ -105,11 +114,11 @@ forma similar a las lucecitas de "El coche fantástico": https://bit.ly/3Lu7YNz
 
 #### Video demostrativo
 
-- <video controls src="op1/Grabación de pantalla 2025-04-30 a las 19.30.33.mov" title="Video Explicativo"></video>
+- [Descargar video demostrativo](<op1/Grabación de pantalla 2025-04-30 a las 19.30.33.mov>)
 
 ---
 
-### 4. `Detector de la distancia a un objeto`
+### 2. `Detector de la distancia a un objeto`
 Detector de la distancia a un objeto (usar el buzzer para hacer sonar un pitido
 en función de la distancia detectada por el sensor de ultrasonidos).
 
@@ -117,25 +126,32 @@ en función de la distancia detectada por el sensor de ultrasonidos).
 
 - Arduino UNO  
   ![Arduino UNO](<op2/Captura de pantalla 2025-04-30 a las 19.42.42.png>)
+
 - Buzzer  
   ![Buzzer](<op2/Captura de pantalla 2025-04-30 a las 19.42.57.png>)
+
 - Sensor
   ![Sensor](<op2/Captura de pantalla 2025-04-30 a las 19.43.50.png>)
+
 
 #### Circuito final
 
 - Esquema de conexión sensor 
 ![Conexion1](<op2/Captura de pantalla 2025-04-30 a las 19.44.32.png>)
+
 - Esquema de conexión buzzer
 ![Conexion2](<op2/Captura de pantalla 2025-04-30 a las 19.44.55.png>)
+
 
 #### Código explicado brevemente
 
 - El código hace sonar el buzzer en función de la distancia detectada por el sensor de ultrasonidos.
 - Captura del código 1:  
 ![Codigo1](<op2/Captura de pantalla 2025-04-30 a las 19.45.31.png>)
+
 - Captura del código 2:  
 ![Codigo2](<op2/Captura de pantalla 2025-04-30 a las 19.45.38.png>)
+
 
 #### Video demostrativo
 - [Descargar video demostrativo](<op2/Grabación de pantalla 2025-04-30 a las 19.46.09.mov>)
