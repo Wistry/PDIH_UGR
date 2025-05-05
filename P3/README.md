@@ -138,6 +138,6 @@ en función de la distancia detectada por el sensor de ultrasonidos).
 ![Codigo2](<op2/Captura de pantalla 2025-04-30 a las 19.45.38.png>)
 
 #### Video demostrativo
-- [Descargar video demostrativo](op2/Grabacion_pantalla_2025-04-30_19-46-09.mov)
+- [Descargar video demostrativo](<op2/Grabación de pantalla 2025-04-30 a las 19.46.09.mov>)
 
 ---
