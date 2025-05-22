@@ -34,7 +34,7 @@ Página en la que se muestre el dibujo de un corazón y una poesía
 
 ---
 
-## Ejercicios avanzados (opcional para subir nota)
+## Ejercicios avanzados 
 
 ### 1. `Sonrisa en círculos concéntricos`
 Ejercicio en el que se muestre la imagen de la sonrisa, en apaisado, dentro de
