@@ -1,0 +1,81 @@
+%!PS-Adobe-3.0
+%% Configurar página en apaisado (842x595)
+<< /PageSize [842 595] >> setpagedevice
+
+% Definir centro de la página
+/xc 421 def
+/yc 297.5 def
+
+% Círculo exterior (morado)
+0.6 0 0.6 setrgbcolor
+newpath
+xc yc 250 0 360 arc
+fill
+
+% Círculo siguiente (rojo)
+1 0 0 setrgbcolor
+newpath
+xc yc 200 0 360 arc
+fill
+
+% Círculo siguiente (verde)
+0 0.8 0 setrgbcolor
+newpath
+xc yc 150 0 360 arc
+fill
+
+% Círculo siguiente (azul claro)
+0.3 0.7 1 setrgbcolor
+newpath
+xc yc 100 0 360 arc
+fill
+
+% Círculo siguiente (amarillo)
+1 1 0 setrgbcolor
+newpath
+xc yc 60 0 360 arc
+fill
+
+% Cuadrado blanco centrado dentro del círculo amarillo
+1 1 1 setrgbcolor
+newpath
+xc 30 sub yc 30 sub moveto
+60 0 rlineto
+0 60 rlineto
+-60 0 rlineto
+closepath
+fill
+
+% Cuadrado gris centrado dentro del cuadrado blanco
+0.7 setgray
+newpath
+xc 25 sub yc 25 sub moveto    % 25 = 50/2
+50 0 rlineto
+0 50 rlineto
+-50 0 rlineto
+closepath
+fill
+
+% Ojos (dos puntos negros) - más separados y más arriba
+0 setgray
+newpath
+xc 12 sub yc 12 add 3 0 360 arc
+fill
+newpath
+xc 12 add yc 12 add 3 0 360 arc
+fill
+
+% Sonrisa (serie de puntos negros) - radio mayor y más puntos
+/numPuntos 13 def
+/radio 16 def
+/anguloInicio 200 def
+/anguloPaso 12 def
+0 1 numPuntos 1 sub {
+    /i exch def
+    anguloInicio anguloPaso i mul add dup cos radio mul xc add
+    exch sin radio mul yc add
+    2 0 360 arc
+    fill
+} for
+
+showpage

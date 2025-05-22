@@ -1,0 +1,56 @@
+%!PS-Adobe-3.0
+
+% -- Árbol grande (izquierda) --
+% Tronco
+newpath
+130 100 moveto     % posición base
+40 0 rlineto       % ancho tronco
+0 150 rlineto      % alto tronco
+-40 0 rlineto
+closepath
+0.55 0.27 0.07 setrgbcolor
+fill
+
+% Copa (forma ovalada con varios círculos superpuestos)
+newpath
+150 270 50 0 360 arc     % círculo central
+150 310 40 0 360 arc     % superior
+120 280 40 0 360 arc     % izquierda
+180 280 40 0 360 arc     % derecha
+0 0.6 0 setrgbcolor
+fill
+
+% -- Árbol pequeño (derecha) --
+% Tronco
+newpath
+280 100 moveto
+25 0 rlineto
+0 100 rlineto
+-25 0 rlineto
+closepath
+0.55 0.27 0.07 setrgbcolor
+fill
+
+% Copa del árbol pequeño
+newpath
+292 220 30 0 360 arc     % centro
+292 245 25 0 360 arc     % arriba
+270 225 25 0 360 arc     % izquierda
+314 225 25 0 360 arc     % derecha
+0 0.6 0 setrgbcolor
+fill
+
+% -- Ciruelo: círculo verde dentro de círculo rojo (centro inferior) --
+% Círculo rojo exterior
+newpath
+210 60 15 0 360 arc
+1 0 0 setrgbcolor
+fill
+
+% Círculo verde interior
+newpath
+210 60 10 0 360 arc
+0.6 0.8 0.2 setrgbcolor
+fill
+
+showpage

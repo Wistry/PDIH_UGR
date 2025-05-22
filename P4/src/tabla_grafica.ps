@@ -1,0 +1,88 @@
+%!PS-Adobe-3.0
+
+%% Página 1: Tabla de datos
+/Helvetica findfont 16 scalefont setfont
+100 750 moveto
+(Mi Tabla de Datos) show
+
+/Helvetica findfont 12 scalefont setfont
+
+% Encabezados
+100 720 moveto (Nombre) show
+200 720 moveto (Edad) show
+300 720 moveto (Nota) show
+
+% Línea horizontal
+newpath 90 715 moveto 350 715 lineto stroke
+
+% Filas de datos inventados
+100 700 moveto (Ana) show
+200 700 moveto (21) show
+300 700 moveto (8.5) show
+
+100 680 moveto (Luis) show
+200 680 moveto (22) show
+300 680 moveto (7.2) show
+
+100 660 moveto (Marta) show
+200 660 moveto (20) show
+300 660 moveto (9.1) show
+
+100 640 moveto (Pedro) show
+200 640 moveto (23) show
+300 640 moveto (6.8) show
+
+showpage
+
+%% Página 2: Texto y gráfica sencilla
+/Helvetica findfont 16 scalefont setfont
+100 750 moveto
+(Grafica de Ejemplo) show
+
+/Helvetica findfont 12 scalefont setfont
+100 730 moveto
+
+% Dibujar ejes
+newpath
+100 600 moveto 100 500 lineto 300 500 lineto stroke
+
+% Flecha eje Y
+newpath 100 600 moveto 95 590 lineto 100 595 lineto 105 590 lineto closepath fill
+
+% Flecha eje X
+newpath 300 500 moveto 290 505 lineto 295 500 lineto 290 495 lineto closepath fill
+
+% Etiquetas de ejes
+/Helvetica findfont 10 scalefont setfont
+90 610 moveto (Y) show
+310 495 moveto (X) show
+
+% Gráfica en forma de cresta
+newpath
+100 500 moveto
+120 520 lineto
+140 540 lineto
+160 560 lineto
+180 580 lineto
+200 570 lineto
+220 550 lineto
+240 530 lineto
+260 510 lineto
+280 500 lineto
+stroke
+
+% Puntos en los vértices de la cresta
+0 setgray
+/ptsize 3 def
+100 500 ptsize 0 360 arc fill
+120 520 ptsize 0 360 arc fill
+140 540 ptsize 0 360 arc fill
+160 560 ptsize 0 360 arc fill
+180 580 ptsize 0 360 arc fill
+200 570 ptsize 0 360 arc fill
+220 550 ptsize 0 360 arc fill
+240 530 ptsize 0 360 arc fill
+260 510 ptsize 0 360 arc fill
+280 500 ptsize 0 360 arc fill
+
+showpage
