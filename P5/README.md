@@ -16,6 +16,9 @@
 ---
 
 ## Estructura de carpetas
+- **src:** Contiene los archivos python para desarrollar el proyecto
+- **img:** Contiene las imagenes creadas en el proyecto
+- **wav:** Contiene los archivos de audio creados 
 
 
 ---
